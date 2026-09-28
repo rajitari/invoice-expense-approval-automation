@@ -13,7 +13,7 @@ The data model supports:
 - Audit logging
 - Error monitoring
 - SQL and Python analysis
-- Power BI reporting
+- Excel Desktop dashboard reporting. Power BI reporting is planned as a future enhancement, subject to licensing and tenant access.
 
 All example data used in this project is fictional.
 
@@ -300,12 +300,11 @@ This dataset records automation and data-processing errors for investigation.
 
 ## 18. Data Storage
 
-| Data | Recommended Location |
+| Data | Current or publication treatment |
 |---|---|
-| Fictional sample CSV | GitHub `data/` folder |
-| Live working spreadsheet | Private Google Drive or OneDrive |
-| Receipt files | Private cloud folder |
-| Power BI source file | Private project backup |
-| Dashboard screenshots | GitHub `dashboard/` folder |
-| API keys and tokens | Password manager or protected environment variables |
-| Audit and error logs | Private working dataset |
+| Synthetic sample data | Publish only if fully fictional and intentionally included in the repository |
+| Live working spreadsheet | Keep in private OneDrive for Business; never commit |
+| Receipt files and links | Keep in private storage; never commit |
+| Excel dashboard screenshots | Publish only after confirming they show synthetic data and no personal or account details; none are included currently |
+| API keys and tokens | Never commit; store in a password manager or protected environment variables |
+| Audit and error logs | Keep live logs private; publish only fictional or sanitised examples |

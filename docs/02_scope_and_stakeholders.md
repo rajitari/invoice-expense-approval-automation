@@ -16,7 +16,7 @@ This is a portfolio project based on a fictional medium-sized UK organisation. A
 - Improve visibility of outstanding requests
 - Reduce manual work for the finance team
 - Maintain a record of approval decisions
-- Provide expense insights through a Power BI dashboard
+- Provide expense insights through the Excel Desktop dashboard
 
 ## 3. In Scope
 
@@ -62,7 +62,7 @@ The following activities are not included:
 - Supporting receipts are available electronically
 - Approval thresholds are agreed by the finance team
 - The project uses fictional and anonymised data
-- Google Sheets or Microsoft Excel acts as the central data source for the prototype
+- Microsoft Excel in OneDrive for Business acts as the central data source for the current prototype
 
 ## 6. Constraints
 

@@ -10,6 +10,8 @@ Acceptance criteria use the Given–When–Then format:
 - **When** describes the user action or event
 - **Then** describes the expected result
 
+> **Implementation status:** These are target-state acceptance criteria; they do not mean every feature has been implemented or tested. The current dashboard has Department and Expense Category slicers only. Date and status filters, automated reminders and escalations, and the receipt threshold rule are not implemented in the current prototype. Refer to the completed project guide for the scenarios verified during UAT.
+
 ## 2. User Story Summary
 
 | Story ID | User Story Title | Primary User | Priority | Related Requirements |

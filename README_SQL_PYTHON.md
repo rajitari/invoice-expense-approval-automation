@@ -27,6 +27,7 @@ Run the checks against the sanitised workbook:
 python3 data_quality_checks.py "/path/to/sanitised_workbook.xlsx" \
   --output "/path/to/data_quality_report.csv"
 ```
+
 The script does not modify the workbook. It writes the CSV report to the path specified with `--output`. Add `--fail-on-error` if the command should return a non-zero exit code when a critical check fails.
 ## Use the SQL files
 

@@ -129,7 +129,7 @@ Priority is based on the expected business impact and urgency of the issue.
 | Manual data entry | Record form submissions directly in a central dataset |
 | No status visibility | Maintain standard status values for every request |
 | Fragmented audit trail | Record submission, approval and decision timestamps |
-| Manual reporting | Connect the central dataset to Power BI |
+| Manual reporting | Use the Excel Desktop dashboard in the current prototype; consider Power BI later if licensing and tenant access are available |
 | Overdue approvals | Introduce reminder and escalation rules |
 
 ## 9. Conclusion

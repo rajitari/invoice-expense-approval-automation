@@ -207,3 +207,5 @@ Requirements should be reviewed against the following questions:
 - Can it be traced to a business need?
 
 In a real project, formal approval would be obtained from the Finance Manager, Finance Officer, Project Sponsor and relevant system owner.
+
+> **Implementation status:** This is the requirements catalogue for the target process; not every requirement is implemented in the prototype. The current dashboard is in Excel Desktop, not Power BI. Monthly expense trends (RPT-006), average approval time (RPT-007), overdue requests (RPT-008), approval and rejection rates (RPT-010), and the Power BI model (DR-009) are not implemented.

@@ -15,6 +15,8 @@ The rules are based on a fictional medium-sized UK organisation and are used for
 - Payment processing takes place outside the automated workflow
 - Finance records the payment result in the system
 
+> **Implementation status:** This document includes proposed business rules. The current prototype implements the £500 approval routes, policy-exception routing, future-date validation, duplicate flagging for human review, and payment eligibility control. Receipt requirements above £25, the 90-day submission limit, alternative approver routing, reminders and escalations are proposed requirements and are not implemented in the current prototype.
+
 ## 3. Approval Matrix
 
 | Expense Amount | Line Manager Approval | Finance Manager Approval | Finance Review |

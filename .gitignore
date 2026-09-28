@@ -225,3 +225,7 @@ credentials.json
 private/
 raw_data/
 *.pbix
+
+# Expense approval portfolio
+*.xlsx
+data_quality_report.csv

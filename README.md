@@ -16,40 +16,37 @@ Many organisations manage employee expense claims through emails, spreadsheets a
 - Improve the accuracy and completeness of submitted information
 - Automate approval routing based on business rules
 - Allow employees to track request status
-- Provide management reporting through a Power BI dashboard
+- Provide management reporting through an Excel dashboard
 - Maintain an audit trail of approval decisions
 
-## Planned Solution
+## Implemented Solution
 
-1. Employees submit an expense request through an online form
-2. Request information is recorded in a central spreadsheet
-3. The request is automatically routed to the appropriate approver
-4. The approver approves or rejects the request
-5. The system updates the request status
-6. The employee receives a notification
-7. Expense information is displayed in a dashboard
+1. Employees submit an expense request through Microsoft Forms.
+2. Power Automate validates the submission and generates an Expense ID.
+3. The request is checked for possible duplicates and routed using the approval rules.
+4. Approvers approve, return or reject the request.
+5. Decisions, status changes and errors are recorded in Excel tables on OneDrive for Business.
+6. Eligible requests move to Ready for Payment; a separate flow records payment completion.
+7. The Excel dashboard summarises requests, spending and risk indicators.
+
 
 ## Tools
 
-- Google Forms or Microsoft Forms
-- Google Sheets or Microsoft Excel
-- Make
-- Power BI
-- SQL
+- Microsoft Forms
+- Power Automate
+- OneDrive for Business
+- Excel Desktop dashboard
+- SQLite
 - Python
 - GitHub
 
 ## Repository Structure
 
-- `docs/` – Business analysis documentation
-- `automation/` – Automation design and Make blueprint
-- `data/` – Anonymised sample datasets
-- `sql/` – SQL analysis queries
-- `python/` – Python data analysis
-- `dashboard/` – Dashboard documentation and screenshots
-- `testing/` – UAT test cases and results
-- `demo/` – Project demonstration materials
+- `docs/` — Business analysis documentation
+- `sql/` — Database schema and analysis queries
+- `python/` — Data quality checker
+- `README_SQL_PYTHON.md` — Instructions for SQL and Python assets
 
 ## Project Status
 
-Work in progress.
+Completed portfolio prototype.

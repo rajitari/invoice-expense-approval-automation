@@ -48,7 +48,7 @@ Risk & Control Monitoring: Highlights policy exceptions, potential duplicate cla
 
 Interactive Filtering: Enables users to explore data by department and expense category.
 
-![Expense Dashboard](docs/dashboard.png)
+![Expense Dashboard](docs/image.png)
   
 
 ## Tools

@@ -30,6 +30,27 @@ Many organisations manage employee expense claims through emails, spreadsheets a
 7. The Excel dashboard summarises requests, spending and risk indicators.
 
 
+## Dashboard Preview
+
+The Excel dashboard provides an overview of expense requests, approval status, spending patterns and potential risk indicators.
+
+It uses PivotCharts and slicers to support interactive reporting and help stakeholders monitor the approval process.
+
+Key features:
+
+KPI Monitoring: Tracks total requests, expense amounts, pending approvals and paid requests.
+
+Expense Analysis: Visualises spending by category and request volume by department.
+
+Approval Tracking: Monitors requests across different approval stages.
+
+Risk & Control Monitoring: Highlights policy exceptions, potential duplicate claims and rejected requests.
+
+Interactive Filtering: Enables users to explore data by department and expense category.
+
+![Expense Dashboard](docs/dashboard.png)
+  
+
 ## Tools
 
 - Microsoft Forms
